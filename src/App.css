@@ -12,6 +12,7 @@
     --red:#ff0000;
     --yellow: #fbb714;
     --gray:#cbccfa;
+    --gray2: #444444;
 
 }
 body{
@@ -28,7 +29,7 @@ a{
 
 
 /* Header part  */
-
+/* First FirstTopNav part start */
 .firstTopBg{
     background-color: var(--bgBlack);
 }
@@ -48,7 +49,7 @@ a{
 .firstTopShop:hover{
     color: var(--red)
 }
-
+/* First FirstTopNav part End */
 
 
 
@@ -125,6 +126,130 @@ a{
 
 /* Fourth Top Nav End */
 
+
+
+
+
+
+/* Footer Part End */
+/* First Footer Part start */
+
+.footerBg{
+    background-color: var(--bgBlack);
+}
+.footerPadding{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footerHeading{
+    color: var(--fontWhite);
+}
+.footerdDece{
+    color: var(--fontWhite);
+    font-size: 0.9rem;
+    font-family: 'Raleway', sans-serif;
+
+}
+.footerdDeceSmall{
+    color: var(--fontWhite);
+    font-size: 0.7rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.footerBtn{
+    font-size: 0.9rem;
+    color: var(--fontWhite);
+    font-family: 'Raleway', sans-serif;
+    border-color: var(--fontWhite);
+    
+}
+
+.footerBtn:hover{
+    color: var(--fontWhite);
+    border-color: var(--fontWhite);
+    background-color: var(--gray2);
+    
+}
+
+.inputWidth{
+    max-width: 500px !important;
+}
+
+.inputPadding{
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+@media only screen and (max-width: 992px) {
+    .padd{
+        padding-top: 18px;
+    }
+  }
+
+/* First Footer Part End */
+
+
+/* Last Footer Part start */
+
+
+.lastFooterDesc{
+    
+    font-size: 0.9rem;
+    word-spacing: 5px;
+    padding-right: 15px;
+}
+
+.lastFooterHeading{
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+
+.lastFooterMenu{
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.footerBottomBorder{
+    border-bottom: 1px solid var(--gray);
+    padding-bottom: 45px;
+}
+
+
+.footerdDeceSmall2{
+    font-size: 0.7rem;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .skCenter{
+        text-align: center;
+    }
+
+    .lastFooterDesc{
+        text-align: center;
+    }
+
+    .lastFooterHeading{
+        text-align: center;
+        padding-top: 18px ;
+    }
+    
+    .lastFooterMenu{
+
+        text-align: center;
+    }
+  }
+
+  /* Last Footer Part start */
+
+/* Footer Part End */
 
 
 
