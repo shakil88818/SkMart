@@ -13,10 +13,13 @@
     --yellow: #fbb714;
     --gray:#cbccfa;
     --gray2: #444444;
+    --pink1: #ffeefa;
+    --color-text-desc: #75767c;
 
 }
 body{
     font-family: 'Rubik', sans-serif;
+    background-color: var(--pink1);
 }
 a{
     text-decoration: none;
@@ -66,7 +69,9 @@ a{
     background-color: var(--bgwhite);
 }
 
-
+.headerBottomBorder{
+    border-bottom: 1px solid var(--gray);
+}
 
 
 .socialIcon{
@@ -250,6 +255,59 @@ a{
   /* Last Footer Part start */
 
 /* Footer Part End */
+
+
+
+
+/* For All */
+
+.sectionGap{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.allSmallText{
+    font-family: 'Jost', sans-serif;
+    font-size: 0.9rem;
+    color: var(--color-text-desc)
+}
+.marginGap_0{
+    margin: 0;
+    padding: 3px;
+}
+
+/* For all End */
+
+
+
+
+/* HomeUp Section Start */
+.HomeUpImg{
+    width: 55px;
+    height: 50px;
+    margin-right: 30px;
+    margin-top: 17px;
+}
+.homeUpHeading{
+    font-family:'Jost', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .mdMarginbottom{
+        margin-bottom: 30px
+    }
+}
+@media only screen and (min-width: 576px) {
+    .smMarginbottom{
+        margin-bottom: 30px
+    }
+}
+
+/* HomeUp Section Start */
 
 
 
