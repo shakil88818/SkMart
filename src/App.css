@@ -1,6 +1,9 @@
+
+
+
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -18,8 +21,7 @@
 
 }
 body{
-    font-family: 'Rubik', sans-serif;
-    background-color: var(--pink1);
+    font-family: 'Jost', sans-serif;
 }
 a{
     text-decoration: none;
@@ -29,6 +31,48 @@ a{
     box-shadow: none;
     border-color: inherit;
 }
+
+
+
+
+/* For All */
+
+.sectionGap_top{
+    margin-top: 50px;
+}
+.sectionGap_bottom{
+    margin-bottom: 50px;
+}
+
+.description{
+    font-family: 'Jost', sans-serif;
+    font-size: 0.9375rem;
+    color: var(--color-text-desc);
+    word-spacing: 0.3px;
+    margin-bottom: 5px;
+}
+.marginGap_0{
+    margin: 0;
+    padding: 3px;
+}
+.heading{
+    font-family: 'Jost', sans-serif;
+    font-size: 2.1rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+p, a, div, h1,h2,h3,h4,h5,h6,span, footer, type, input,button,img{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} 
+
+/* For all End */
+
+
+
+
+
 
 
 /* Header part  */
@@ -149,23 +193,23 @@ a{
 
 .footerHeading{
     color: var(--fontWhite);
+    margin-bottom: 5px;
 }
 .footerdDece{
     color: var(--fontWhite);
     font-size: 0.9rem;
-    font-family: 'Raleway', sans-serif;
+    margin-bottom: 9px;
 
 }
 .footerdDeceSmall{
     color: var(--fontWhite);
     font-size: 0.7rem;
-    font-family: 'Raleway', sans-serif;
+    margin-top: 9px;
 }
 
 .footerBtn{
     font-size: 0.9rem;
     color: var(--fontWhite);
-    font-family: 'Raleway', sans-serif;
     border-color: var(--fontWhite);
     
 }
@@ -203,29 +247,30 @@ a{
     font-size: 0.9rem;
     word-spacing: 5px;
     padding-right: 15px;
+    margin-bottom: 5px;
 }
 
 .lastFooterHeading{
     font-size: 1.1rem;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    margin-bottom: 7px;
 }
 
 
 .lastFooterMenu{
-    font-family: 'Raleway', sans-serif;
     font-size: 0.9rem;
     font-weight: 500;
+    margin-bottom: 7px;
 }
 
 .footerBottomBorder{
     border-bottom: 1px solid var(--gray);
-    padding-bottom: 45px;
+    padding-bottom: 30px;
 }
 
 
 .footerdDeceSmall2{
-    font-size: 0.7rem;
+    font-size: 0.825rem;
 }
 
 
@@ -259,25 +304,6 @@ a{
 
 
 
-/* For All */
-
-.sectionGap{
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.allSmallText{
-    font-family: 'Jost', sans-serif;
-    font-size: 0.9rem;
-    color: var(--color-text-desc)
-}
-.marginGap_0{
-    margin: 0;
-    padding: 3px;
-}
-
-/* For all End */
-
 
 
 
@@ -296,18 +322,89 @@ a{
 }
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
     .mdMarginbottom{
         margin-bottom: 30px
     }
 }
-@media only screen and (min-width: 576px) {
+@media only screen and (max-width: 992px) {
     .smMarginbottom{
         margin-bottom: 30px
     }
 }
 
 /* HomeUp Section Start */
+
+
+
+
+
+/* New Season Start */
+
+.nsImg{
+    max-width: 100%;
+    height: auto;
+}
+
+.nsImg1{
+    padding-right: 13px;
+}
+
+.nsImg2{
+    padding-bottom: 35px;
+}
+
+.nsHeading2{
+    font-size: 1.9rem;
+    font-weight: 500;
+}
+.nsText{
+    font-family:'Jost', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.nsShopNowText{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.nsShopNowArrow{
+    margin-left: 13px; 
+}
+.nsLeftContainer{
+position: relative;
+
+}
+.nsTextDetail{
+    position: absolute;
+    top:50px;
+    left:60px;
+    max-width: 350px;
+    z-index: 100;
+    
+}
+
+.nsRightContainer1{
+    position: relative;
+    
+}
+
+
+@media only screen and (max-width: 768px) {
+    .nsImg1{
+        padding-bottom: 35px;
+    }
+
+
+}
+@media only screen and (max-width: 992px) {
+    .nsImg1{
+        padding-bottom: 35px;
+    }
+
+
+}
+/* New Season End */
 
 
 

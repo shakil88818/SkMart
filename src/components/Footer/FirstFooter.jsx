@@ -21,7 +21,7 @@ const FirstFooter = () => {
 
               <form className="row">
 
-                  <div className="d-flex  flex-row">
+                  <div className="d-flex flex-row">
                       <div>
                         <input type="email" className="form-control rounded-0 inputPadding" id="inputPassword2" placeholder="Enter Your Email..." required/>
                       </div>
@@ -44,8 +44,8 @@ const FirstFooter = () => {
               <h3 className='footerHeading'>Need help?</h3>
               <h3 className='footerHeading'>+8801234567890</h3>
               <p className = 'footerdDece'>We are available 8:00am to 7:00pm</p>
-              <Image src= {AppStore } />
-              <Image src = {GooglePlay} />
+              <Image src= {AppStore } className='mt-3' />
+              <Image src = {GooglePlay} className='mt-3' />
               <p className='footerdDeceSmall'>Shopping App: Try our View in Your Room feature, manage registries and save payment info.</p>
               
             </Col>

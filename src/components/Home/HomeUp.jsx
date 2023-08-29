@@ -11,14 +11,14 @@ import HomeUpImg_money from '../../assets/Image/homeUp_money.png'
 const HomeUp = () => {
   return (
     <>
-      <div className="container-xxl sectionGap">
+      <div className="container-xxl sectionGap_top">
         <Row>
             <Col lg={3} md={6} sm={12} className='mdMarginbottom smMarginbottom'>
                 <div className='d-flex'>
                     <Image src ={HomeUpImg_1} className='HomeUpImg'/>
                     <div>
                     <p className='homeUpHeading marginGap_0'>Free Shipping</p>
-                    <p className='allSmallText marginGap_0'>Free Shipping for orders over $130.</p>
+                    <p className='description marginGap_0'>Free Shipping for orders over $130.</p>
                     </div>
                 </div>
             </Col>
@@ -30,7 +30,7 @@ const HomeUp = () => {
                     <Image src ={HomeUpImg_money} className='HomeUpImg'/>
                     <div>
                     <p className='homeUpHeading marginGap_0'>Money Guarantee</p>
-                    <p className='allSmallText marginGap_0'>Within 30 days for an exchange</p>
+                    <p className='description marginGap_0'>Within 30 days for an exchange</p>
                     </div>
                 </div>
             </Col>
@@ -42,7 +42,7 @@ const HomeUp = () => {
                     <Image src ={HomeUpImg_onlineSupport} className='HomeUpImg'/>
                     <div>
                     <p className='homeUpHeading marginGap_0'>Online Support</p>
-                    <p className='allSmallText marginGap_0'>Within 30 days for an exchange.</p>
+                    <p className='description marginGap_0'>Within 30 days for an exchange.</p>
                     </div>
                 </div>
             </Col>
@@ -54,7 +54,7 @@ const HomeUp = () => {
                     <Image src ={HomeUpImg_payment} className='HomeUpImg'/>
                     <div>
                     <p className='homeUpHeading marginGap_0'>Flexible Payment</p>
-                    <p className='allSmallText marginGap_0'>Pay with Multiple Credit Cards.</p>
+                    <p className='description marginGap_0'>Pay with Multiple Credit Cards.</p>
 
                     </div>
                 </div>

@@ -1,8 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../src/App.css'
 
-
-
 import Router from '../src/routers/Routers.jsx'
 
 
