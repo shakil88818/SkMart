@@ -38,15 +38,15 @@ a{
 /* For All */
 
 .sectionGap_top{
-    margin-top: 50px;
+    margin-top: 60px;
 }
 .sectionGap_bottom{
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .description{
     font-family: 'Jost', sans-serif;
-    font-size: 0.9375rem;
+    font-size: 1.1rem;
     color: var(--color-text-desc);
     word-spacing: 0.3px;
     margin-bottom: 5px;
@@ -60,6 +60,15 @@ a{
     font-size: 2.1rem;
     font-weight: 700;
     margin-bottom: 5px;
+}
+
+.topHeadingSection{
+    font-family: 'Jost', sans-serif;
+    font-size: 2.134rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-bottom: 15px;
 }
 p, a, div, h1,h2,h3,h4,h5,h6,span, footer, type, input,button,img{
     margin: 0px;
@@ -82,8 +91,7 @@ p, a, div, h1,h2,h3,h4,h5,h6,span, footer, type, input,button,img{
 }
 
 .firstTopText{
-    font-family: 'Raleway', sans-serif;
-    font-size: 0.9rem;
+    font-size: 0.829rem;
     word-spacing: 3px;
     color: var(--fontWhite)
 }
@@ -405,6 +413,50 @@ position: relative;
 
 }
 /* New Season End */
+
+
+
+
+/* our latest news Start */
+
+.latestImg{
+    max-width: 100%;
+    height: auto;
+}
+.latestImgMargin{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.latestDesc{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.latestUpText{
+    font-size: 0.9rem;
+    margin: 16px 0 12px 0;
+}
+.latestHeading{
+    font-size: 1.789rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .latestImgMargin{
+        margin-bottom: 40px;
+    }
+
+
+}
+@media only screen and (max-width: 992px) {
+    .latestImgMargin{
+        margin-bottom: 40px;
+    }
+
+/* our latest news end */
 
 
 
