@@ -2,10 +2,10 @@
 import React from 'react'
 
 import { Col, Image, Row } from 'react-bootstrap'
-import HomeUpImg_1 from '../../assets/Image/homeUp_1.png'
-import HomeUpImg_onlineSupport from '../../assets/Image/homeUp_onlineSupport.png'
-import HomeUpImg_payment from '../../assets/Image/homeUp_payment.png'
-import HomeUpImg_money from '../../assets/Image/homeUp_money.png'
+import HomeUpImg_1 from '../../../assets/Image/homeUp_1.png'
+import HomeUpImg_onlineSupport from '../../../assets/Image/homeUp_onlineSupport.png'
+import HomeUpImg_payment from '../../../assets/Image/homeUp_payment.png'
+import HomeUpImg_money from '../../../assets/Image/homeUp_money.png'
 
 
 const HomeUp = () => {

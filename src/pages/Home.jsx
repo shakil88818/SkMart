@@ -1,8 +1,9 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 
-import HomeUp from '../components/Home/HomeUp.jsx'
+import HomeUp from '../components/Home/HomeUp/HomeUp.jsx'
 import NewSeason from '../components/Home/NewSeason/NewSeason.jsx'
+import Discount from '../components/Home/Discount/Discount.jsx'
 import OurLatestNews from '../components/Home/OurLatestNews/OurLatestNews.jsx'
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
     <>
       <HomeUp />
       <NewSeason />
+      <Discount />
       <OurLatestNews />
     </>
   )
