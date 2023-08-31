@@ -19,7 +19,7 @@ const NewSeason = () => {
             
             
             <div className='nsTextDetail'>
-                <p className='nsText'>NEW SEASON</p>
+                <p className='exSmallHeading'>NEW SEASON</p>
                 <h3 className='heading'>Big patterns back in fashion</h3>
                 <p className='description'>Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, neque.</p>
                 <p className='nsShopNowText mt-5'>Shop Now <FaArrowRightLong className='nsShopNow'/></p>
@@ -35,7 +35,7 @@ const NewSeason = () => {
                     <Image src={NsBanner2} className='nsImg nsImg2'/>
                       
                       <div className='nsTextDetail'>
-                        <p className='nsText'>NEW SEASON</p>
+                        <p className='exSmallHeading'>NEW SEASON</p>
                         <h3 className='heading nsHeading2'>The latest mens trends this season</h3>
                         <p className='description'>Do not miss the opportunity</p>
                         <p className='nsShopNowText mt-5'>Shop Now <FaArrowRightLong className='nsShopNow'/></p>
@@ -46,7 +46,7 @@ const NewSeason = () => {
                     <Image src={NsBanner3} className='nsImg'/>
 
                       <div className='nsTextDetail'>
-                        <p className='nsText'>NEW SEASON</p>
+                        <p className='exSmallHeading'>NEW SEASON</p>
                         <h3 className='heading nsHeading2'>Show your fashion with summer shoes</h3>
                         <p className='description'>Do not miss the opportunity.</p>
                         <p className='nsShopNowText mt-5'>Shop Now <FaArrowRightLong className='nsShopNow'/></p>

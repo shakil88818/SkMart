@@ -12,7 +12,7 @@
     --bgBlack:#000000;
     --fontblack: #000000;
     --fontWhite: #ffffff;
-    --red:#ff0000;
+    --red:#f53b3b;
     --yellow: #fbb714;
     --gray:#cbccfa;
     --gray2: #444444;
@@ -59,7 +59,7 @@ a{
     font-family: 'Jost', sans-serif;
     font-size: 2.1rem;
     font-weight: 700;
-    margin-bottom: 5px;
+    margin: 6px 0 6px 0;
 }
 
 .topHeadingSection{
@@ -70,6 +70,41 @@ a{
     text-align: center;
     margin-bottom: 15px;
 }
+.exSmallHeading{
+    font-family:'Jost', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* For center Content use center & CenterContent */
+.center {
+    position: relative;
+  }
+  
+.centerContent {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+  /* for Button */
+.button_A{
+    background-color: var(--pink1);
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 11px 30px;
+    color: var(--red);
+    border-color:var(--red);
+}
+.button_A:hover{
+    background-color: var(--red);
+    color:var(--fontWhite);
+}
+
 p, a, div, h1,h2,h3,h4,h5,h6,span, footer, type, input,button,img{
     margin: 0px;
     padding: 0px;
@@ -366,12 +401,7 @@ p, a, div, h1,h2,h3,h4,h5,h6,span, footer, type, input,button,img{
     font-size: 1.9rem;
     font-weight: 500;
 }
-.nsText{
-    font-family:'Jost', sans-serif;
-    font-size: 0.8rem;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
+
 .nsShopNowText{
     font-size: 1.1rem;
     font-weight: 600;
@@ -519,3 +549,33 @@ position: relative;
     }
 }
 /* Discount End */
+
+
+
+
+/* Summmer collection Start */
+
+.sumColImg{
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
+.summerCollection{
+    background-color: var(--pink1);
+
+}
+
+.smDescpadding{
+    padding: 12px 0 30px 0;
+}
+
+.sumContent{
+    padding: 50px 10px ;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+
+/* Summer collection end */
