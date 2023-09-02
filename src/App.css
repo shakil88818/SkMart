@@ -70,12 +70,19 @@ a{
     text-align: center;
     margin-bottom: 15px;
 }
+.mdllHeading{
+    font-family:'Jost', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
 .exSmallHeading{
     font-family:'Jost', sans-serif;
     font-size: 0.9rem;
     font-weight: 700;
     margin-bottom: 10px;
 }
+
 
 /* For center Content use center & CenterContent */
 .center {
@@ -579,3 +586,26 @@ position: relative;
 
 
 /* Summer collection end */
+
+
+/* client review start */
+
+.faStar{
+    color: var(--red);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.circleImg{
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 115, 230);
+    width: 100px;
+    height: 100px;
+}
+.siderPadding{
+    padding-bottom: 3rem;
+    margin: 10px 0;
+}
+
+/* client review End */
