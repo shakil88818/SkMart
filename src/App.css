@@ -112,6 +112,10 @@ a{
     color:var(--fontWhite);
 }
 
+img{
+    margin: 0;
+    padding: 0;
+}
 
 /* For all End */
 
@@ -430,19 +434,68 @@ position: relative;
 }
 
 
-@media only screen and (max-width: 768px) {
-    .nsImg1{
-        padding-bottom: 35px;
-    }
 
-
-}
 @media only screen and (max-width: 992px) {
     .nsImg1{
         padding-bottom: 35px;
     }
+    .nsHeading2{
+        font-size: 1.9rem;
+        font-weight: 500;
+    }
+    
+    .nsShopNowText{
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+    
+    
+    .nsRightContainer1{
+        position: relative;
+        
+    }
+    
+    
+    .nsTextDetail{
+        position: absolute;
+        top:50px;
+        left:60px;
+        width: 450px;
+        z-index: 100;
+        
+    }
+
+}
 
 
+@media only screen and (max-width: 480px) {
+    .nsHeading2{
+        font-size: 1.3rem;
+        font-weight: 600;
+        width: 12rem;
+
+    }
+    
+    .nsShopNowText{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    
+    
+    .nsRightContainer1{
+        position: relative;
+        
+    }
+    
+    
+    .nsTextDetail{
+        position: absolute;
+        top:20px;
+        left:40px;
+        max-width: 350px;
+        z-index: 100;
+        
+    }
 }
 /* New Season End */
 
@@ -641,12 +694,109 @@ position: relative;
 }
 
 
-
-
-
-
-
-
-
-
 /* Catagories Product Star */
+
+/* New Season 2 Start */
+
+.ns2Img{
+    max-width: 100%;
+    height: 100%;
+}
+
+.ns2Img1{
+    padding-right: 13px;
+}
+
+.ns2Img2{
+    padding-bottom: 35px;
+}
+
+.ns2Heading2{
+    font-size: 1.9rem;
+    font-weight: 500;
+}
+
+.ns2ShopNowText{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+
+.ns2RightContainer1{
+    position: relative;
+    
+}
+
+
+.ns2TextDetail{
+    position: absolute;
+    top:50px;
+    left:60px;
+    max-width: 350px;
+    z-index: 100;
+    
+}
+
+@media only screen and (max-width: 992px) {
+
+    
+    .ns2Heading2{
+        font-size: 1.9rem;
+        font-weight: 500;
+    }
+    
+    .ns2ShopNowText{
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+    
+    
+    .ns2RightContainer1{
+        position: relative;
+        
+    }
+    
+    
+    .ns2TextDetail{
+        position: absolute;
+        top:50px;
+        left:60px;
+        width: 450px;
+        z-index: 100;
+        
+    }
+
+}
+
+
+@media only screen and (max-width: 480px) {
+    .ns2Heading2{
+        font-size: 1.3rem;
+        font-weight: 600;
+        width: 12rem;
+
+    }
+    
+    .ns2ShopNowText{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    
+    
+    .ns2RightContainer1{
+        position: relative;
+        
+    }
+    
+    
+    .ns2TextDetail{
+        position: absolute;
+        top:20px;
+        left:40px;
+        max-width: 350px;
+        z-index: 100;
+        
+    }
+}
+/* New Season End */
+

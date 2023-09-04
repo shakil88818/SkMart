@@ -59,7 +59,7 @@ const CatagoriesProduct = () => {
       
   return (
     <>
-        <div className="container-xxl sectionGap_top">
+        <div className="container-xxl mt-2">
             <h2 className='topHeadingSection'>Best for your Catagories</h2>
             <p className='description latestDesc'>19 categories belonging to a total of 45592 products</p>
             <Row className='mx-4 text-center justify-content-center'>

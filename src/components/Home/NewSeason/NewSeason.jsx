@@ -38,7 +38,7 @@ const NewSeason = () => {
                         <p className='exSmallHeading'>NEW SEASON</p>
                         <h3 className='heading nsHeading2'>The latest mens trends this season</h3>
                         <p className='description'>Do not miss the opportunity</p>
-                        <p className='nsShopNowText mt-5'>Shop Now <FaArrowRightLong className='nsShopNow'/></p>
+                        <p className='nsShopNowText mt-3'>Shop Now <FaArrowRightLong className='nsShopNow'/></p>
                       </div>
                   </Col>
 
@@ -49,7 +49,7 @@ const NewSeason = () => {
                         <p className='exSmallHeading'>NEW SEASON</p>
                         <h3 className='heading nsHeading2'>Show your fashion with summer shoes</h3>
                         <p className='description'>Do not miss the opportunity.</p>
-                        <p className='nsShopNowText mt-5'>Shop Now <FaArrowRightLong className='nsShopNow'/></p>
+                        <p className='nsShopNowText mt-3'>Shop Now <FaArrowRightLong className='nsShopNow'/></p>
                       </div>
                   </Col>
                 </Row>
