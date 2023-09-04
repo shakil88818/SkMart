@@ -60,8 +60,8 @@ const CatagoriesProduct = () => {
   return (
     <>
         <div className="container-xxl mt-2">
-            <h2 className='topHeadingSection'>Best for your Catagories</h2>
-            <p className='description latestDesc'>19 categories belonging to a total of 45592 products</p>
+              <h4 className='mb-5'>Best for your Catagories <span className='description'>19 categories belonging to a total of 45592 products</span></h4>
+
             <Row className='mx-4 text-center justify-content-center'>
               
             <Slider {...settings} className='catg_circleImgw'>
