@@ -1,7 +1,7 @@
 
 
 
-*{
+*, :root{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -38,7 +38,7 @@ a{
 /* For All */
 
 .sectionGap_top{
-    margin-top: 60px;
+    margin-top: 90px;
 }
 .sectionGap_bottom{
     margin-bottom: 60px;
@@ -112,11 +112,6 @@ a{
     color:var(--fontWhite);
 }
 
-p, a, div, h1,h2,h3,h4,h5,h6,span, footer, type, input,button,img{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-} 
 
 /* For all End */
 
@@ -609,3 +604,49 @@ position: relative;
 }
 
 /* client review End */
+
+
+
+
+
+/* Catagories Product Star */
+
+.catg_circleImg{
+    border-radius: 50%;
+    max-width: 85%;
+    max-height: 85%;
+
+}
+
+
+
+
+
+.slick-prev:before,
+.slick-next:before {
+    color: var(--color-text-desc)!important;
+    font-size: 30px !important;
+    left: -2rem !important;
+    right: 1rem !important;
+    z-index: 4;
+    
+}
+
+
+.catgTextPadding{
+    padding: 15px 0 0px 5px ;
+}
+.catgTextPadding:hover{
+    color: var(--red);
+}
+
+
+
+
+
+
+
+
+
+
+/* Catagories Product Star */

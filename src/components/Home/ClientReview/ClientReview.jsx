@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col,Row } from 'react-bootstrap'
 
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -20,6 +20,7 @@ const ClientReview = () => {
       slidesToShow: 1,
       slidesToScroll: 1,
       vertical: true,
+      arrows:false,
       responsive: [
         {
           breakpoint: 1024,
