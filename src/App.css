@@ -13,12 +13,14 @@
     --fontblack: #000000;
     --fontWhite: #ffffff;
     --red:#f53b3b;
+    --red2:#ff6767;
     --yellow: #fbb714;
     --gray:#cbccfa;
     --gray2: #444444;
     --pink1: #ffeaf9;
     --color-text-desc: #75767c;
-
+    --gray3: rgb(233, 233, 233);
+    --green:green;
 }
 body{
     font-family: 'Jost', sans-serif;
@@ -51,6 +53,15 @@ a{
     word-spacing: 0.3px;
     margin-bottom: 5px;
 }
+
+.description2{
+    font-family: 'Jost', sans-serif;
+    font-size: 0.9rem;
+    color: var(--color-text-desc);
+    word-spacing: 0.3px;
+    margin-bottom: 5px;
+}
+
 .marginGap_0{
     margin: 0;
     padding: 3px;
@@ -854,4 +865,137 @@ position: relative;
 }
 
 /* DealOfTheWeek  End*/
+
+
+
+/* ladstDeal Start */
+
+.LastDealDesc{
+    text-align: center;
+    margin-bottom: 80px;
+    padding: 0 50px 0 50px;
+}
+
+.lastDealImg{
+    width: 14.375rem;
+    height: 21.563rem;
+}
+
+.LastDealLeftBox{
+    border: 2px solid var(--gray3);
+    margin: 2px;
+    padding: 20px;
+}
+
+.lastDealHeading{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    margin:0.5rem;
+}
+
+.lastDealIcon{
+    color: var(--yellow);
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+.reviews{
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.lastDealSmallDesc{
+    font-size: small;
+}
+
+
+.LastDealLeftBox:hover{
+    border: 2px solid var(--red);
+}
+.LastDealLeftBox:hover .timerItem{
+    background-color: var(--red);
+    color: var(--fontWhite)
+}
+
+.LastDealLeftBox:hover .lastDealHoverIcon{
+    opacity: 1;
+    transform: translateX(-10px);
+    transition: transform 0.6s;
+}
+
+.lastDealImgBox{
+    position: relative;
+}
+
+.lastDealHoverIcon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+
+    height:160px;
+
+
+    position:absolute;
+    top: 0;
+    right: 0;
+    z-index: 50;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+
+
+
+.lastDealHoverIconItem{
+    background-color: var(--fontWhite);
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.lastDealHoverIconItem:hover{
+    background-color: var(--red);
+    color: var(--fontWhite);
+}
+
+
+.lastDealpersentage{
+    width: 45px;
+    background-color: var(--bgwhite);
+    color:var(--green);
+    text-align: center;
+    font-weight: 500;
+    position: absolute;
+    top:10px;
+    left:10px;
+    z-index: 50;
+}
+
+
+
+/* lastDael End */
+
+
+
+/* CoundownTimer start */
+
+.countdownTimer {
+    display: flex;
+    font-size: 5px;
+}
+.timerItem{
+    margin-right: 7px;
+    padding: 7px;
+    background-color: var(--gray);
+    border-radius: 8px;
+}
+
+.timerItem h6{
+    font-size: 14px;
+}
+/* CoundownTimer End */
 

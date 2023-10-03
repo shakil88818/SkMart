@@ -8,6 +8,7 @@ import DealOfTheWeek from '../components/Home/DealOfTheWeek/DealOfTheWeek.jsx'
 import NewSeason2 from '../components/Home/NewSeason2/NewSeason2.jsx'
 import CatagoriesProduct from '../components/Home/CatagoriesProduct/CatagoriesProduct.jsx'
 import ClientReview from '../components/Home/ClientReview/ClientReview.jsx'
+import LastDeal from '../components/Home/LastDeal/LastDeal.jsx'
 import Discount from '../components/Home/Discount/Discount.jsx'
 import OurLatestNews from '../components/Home/OurLatestNews/OurLatestNews.jsx'
 
@@ -23,6 +24,7 @@ const Home = () => {
       <NewSeason2 />
       <CatagoriesProduct />
       <ClientReview />
+      <LastDeal />
       <Discount />
       <OurLatestNews />
     </>
