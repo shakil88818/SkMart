@@ -38,6 +38,14 @@ a{
 
 
 /* For All */
+a{
+    text-decoration: none;
+    color: var(--gray2);
+}
+
+.bottomBorder{
+    border-bottom: 1px solid var(--gray);
+}
 
 .sectionGap_top{
     margin-top: 90px;
@@ -248,10 +256,54 @@ h1,h2,h3,h4,h5,h6,div,p,img,input,a,button,section,main,article{
 
 
 
-/* Fourth Top Nav start */
 
-.dropDounBtn{
-    background-color: var(--bgwhite);
+/* thirdTopNav start */
+
+.thirdNavContainer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4rem 0;
+}
+
+.ThirdNavContent{
+    display: flex;
+    margin-right: 5px;
+}
+.ThirdNavContent p{
+    margin-right: 0.5rem;
+    font-size: 0.9rem;
+}
+.thirdNavSpan{
+    color: var(--red);
+    font-weight: 600;
+}
+.selectBorder{
+    border:none;
+}
+
+
+
+.thirdNavIcon{
+    font-size: 1.2rem;
+}
+
+
+/* thirdTopNav End */
+
+
+
+/* Fourth Top Nav start */
+.fourthNavIcon{
+    font-size: 2rem;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: 900;
+    color: green;
 }
 
 /* Fourth Top Nav End */

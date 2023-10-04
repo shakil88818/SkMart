@@ -3,8 +3,8 @@ import React from 'react'
 
 import FirstTopNav from './FirstTopNav.jsx'
 import SecondTopNav from './SecondTopNav.jsx'
-import ThirdTopNav from './ThirdTopNav.jsx'
-import FourthTopNav from './FourthTopNav.jsx'
+import ThirdTopNav from './thirdTopNav/ThirdTopNav.jsx'
+import FourthTopNav from './FourthTopNav/FourthTopNav.jsx'
 import FivthTopNav from './FivthTopNav.jsx'
 
 
