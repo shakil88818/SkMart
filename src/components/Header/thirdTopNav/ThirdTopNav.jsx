@@ -2,12 +2,13 @@ import {} from 'react'
 
 
 
-import { FaInstagram,FaCaretDown } from "react-icons/fa6";
+import { FaInstagram,FaCaretDown, FaAngleDown } from "react-icons/fa6";
+
 
 const ThirdTopNav = () => {
   return (
     <>
-        <div className='bottomBorder'>
+        <div className= 'thirdBgHead displayNone'>
             <div className="container-xxl">
                 <div className='thirdNavContainer'>
                     <div className='ThirdNavContent'>
@@ -22,13 +23,8 @@ const ThirdTopNav = () => {
 
                     <div className='ThirdNavContent'>
                         <p>Order Traking</p>
-                        <p>
-                        <select className='selectBorder'>
-                            <option>English</option>
-                            <option>Bangla</option>
-                            <option>Spanish</option>
-                        </select>
-                        </p>
+                        <p>English <FaAngleDown /></p>
+                        <p>USD <FaAngleDown /></p>
 
                         
                     </div>

@@ -2,10 +2,9 @@
 import React from 'react'
 
 import FirstTopNav from './FirstTopNav.jsx'
-import SecondTopNav from './SecondTopNav.jsx'
 import ThirdTopNav from './thirdTopNav/ThirdTopNav.jsx'
 import FourthTopNav from './FourthTopNav/FourthTopNav.jsx'
-import FivthTopNav from './FivthTopNav.jsx'
+import FivthTopNav from './FifthTopNav/FifthTopNav.jsx'
 
 
 
@@ -13,7 +12,6 @@ const Header = () => {
   return (
     <>
         <FirstTopNav />
-        <SecondTopNav />
         <ThirdTopNav />
         <FourthTopNav />
         <FivthTopNav />
