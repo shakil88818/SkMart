@@ -1,5 +1,5 @@
 import {} from 'react'
-import './SlickStyle.css'
+import './BestSellerProductStyle.css'
 import { FaStar,FaRegStarHalfStroke, FaRegHeart } from "react-icons/fa6";
 
 import BestSeller1 from '../../../assets/Image/best-Seller-1.jpeg'
@@ -16,7 +16,7 @@ const BestSellerProduct = () => {
         infinite: false,
         speed: 500,
         slidesToShow: 4,
-        slidesToScroll: 1,
+        slidesToScroll: 4,
         initialSlide: 0,
         responsive: [
           {

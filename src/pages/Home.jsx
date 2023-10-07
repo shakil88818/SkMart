@@ -12,6 +12,7 @@ import LastDeal from '../components/Home/LastDeal/LastDeal.jsx'
 import Discount from '../components/Home/Discount/Discount.jsx'
 import OurLatestNews from '../components/Home/OurLatestNews/OurLatestNews.jsx'
 import BestSellerProduct from '../components/Home/BestSellerProduct/BestSellerProduct.jsx'
+import FeaturedProduct from '../components/Home/FeaturedProduct/FeaturedProduct.jsx'
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
       <BestSellerProduct />
       <SummerCollection />
       <DealOfTheWeek />
+      <FeaturedProduct />
       <NewSeason2 />
       <CatagoriesProduct />
       <ClientReview />
