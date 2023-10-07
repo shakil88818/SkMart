@@ -11,14 +11,14 @@ import ClientReview from '../components/Home/ClientReview/ClientReview.jsx'
 import LastDeal from '../components/Home/LastDeal/LastDeal.jsx'
 import Discount from '../components/Home/Discount/Discount.jsx'
 import OurLatestNews from '../components/Home/OurLatestNews/OurLatestNews.jsx'
-
-
+import BestSellerProduct from '../components/Home/BestSellerProduct/BestSellerProduct.jsx'
 
 const Home = () => {
   return (
     <>
       <HomeUp />
       <NewSeason />
+      <BestSellerProduct />
       <SummerCollection />
       <DealOfTheWeek />
       <NewSeason2 />

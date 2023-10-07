@@ -1,0 +1,158 @@
+:root{
+    --bgwhite: #ffffff;
+    --bgBlack:#000000;
+    --fontblack: #000000;
+    --fontWhite: #ffffff;
+    --red:#FE1E1E;
+    --red2:#ff6767;
+    --yellow: #fbb714;
+    --gray:#cbccfa;
+    --gray2: #444444;
+    --pink1: #ffeaf9;
+    --color-text-desc: #75767c;
+    --gray3: rgb(233, 233, 233);
+    --green:green;
+    --1stHead: #011A21;
+    --2ndHead: #012B35;
+    --3rdHead: #033C4A;
+    --4thHead: #044E61 ;
+    --5thHead: #04637A ;
+    --deepwhite: rgb(255, 255, 255);
+    --gray0: #BDC3C7;
+}
+
+
+
+.carousel{
+
+    width: 100%;
+    height: auto;
+}
+.box img{
+    width: 300px;
+    height:400px;
+
+}
+
+
+.slick-slide {
+
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 7px;
+}
+
+.slick-dots li button:before {
+    font-size: 10px;
+    line-height: 33px;
+    top: 10px;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    opacity: 0.8 !important;
+    color: var(--5thHead); 
+}
+
+
+
+
+.slick-prev:before, .slick-next:before {
+    font-size: 30px !important;
+}
+
+
+
+
+
+.bestSellerImgBox{
+    position: relative;
+}
+
+
+.bestSellerIcon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    padding: 8px 0px;
+
+    position:absolute;
+    top: 0;
+    right: 0;
+    z-index: 50;
+    transition: 0.6s;
+}
+
+.bestSellerIconItem{
+    background-color: var(--fontWhite);
+    width: 40px;
+    height: 40px;
+    margin: 4px 10px;
+    padding: 7px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.bestSellerIconItem:hover{
+    background-color: var(--3rdHead) ;
+    color: var(--gray0);
+}
+.bestSellerImgBox:hover .bestSellerIconItem{
+    opacity: 1;
+    transform: translateX(-10px);
+    transition: transform 0.6s;
+}
+
+.bestSellerpersentage{
+    background-color: var(--fontWhite);
+    color:var(--green);
+    padding: 3px;
+    text-align: center;
+    font-weight: 500;
+    position: absolute;
+    top:10px;
+    left:10px;
+    z-index: 50;
+}
+
+
+
+
+
+
+.imgHoverContainer{
+    height: auto;
+    overflow: hidden;
+}
+.imgHoverContainer img{
+    width: 100%;
+    display: block;
+    transition: transform 1s;
+}
+
+.imgHoverContainer:hover img{
+    transform: scale(1.3);
+}
+
+
+
+.BestSellerDesc{
+    color: var(--gray2);
+    padding-top: 5px;
+    font-size: 0.888rem;
+}
+
+.BestSellerDescIcon{
+    display: flex;
+    color: var(--yellow);
+    gap:2px;
+}
+.BestSellerReviews{
+    color: var(--fontblack);
+    font-weight: 600;
+    padding-left: 5px;
+}
+

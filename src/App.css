@@ -45,6 +45,7 @@ a{
 
 
 /* For All */
+
 a{
     text-decoration: none;
     color: var(--gray2);
@@ -57,7 +58,7 @@ li{
 }
 
 .sectionGap_top{
-    margin-top: 90px;
+    margin-top: 85px;
 }
 .sectionGap_bottom{
     margin-bottom: 60px;
@@ -132,11 +133,11 @@ li{
     font-size: 1.1rem;
     font-weight: 600;
     padding: 11px 30px;
-    color: var(--red);
-    border-color:var(--red);
+    color: var(--2ndHead);
+    border-color:var(--2ndHead);
 }
 .button_A:hover{
-    background-color: var(--red);
+    background-color: var(--3rdHead);
     color:var(--fontWhite);
 }
 
@@ -146,11 +147,11 @@ li{
     font-size: 1.1rem;
     font-weight: 600;
     padding: 11px 30px;
-    color: var(--fontblack);
+    color: var(--1stHead);
     border:none;
 }
 .button_B:hover{
-    background-color: var(--red);
+    background-color: var(--3rdHead);
     color:var(--fontWhite);
 }
 img{
@@ -1090,8 +1091,7 @@ position: relative;
 
 .LastDealDesc{
     text-align: center;
-    margin-bottom: 80px;
-    padding: 0 50px 0 50px;
+    padding: 0px 100px 30px 100px;
 }
 
 .lastDealImg{
@@ -1128,10 +1128,10 @@ position: relative;
 
 
 .LastDealLeftBox:hover{
-    border: 2px solid var(--red);
+    border: 2px solid var(--2ndHead);
 }
 .LastDealLeftBox:hover .timerItem{
-    background-color: var(--red);
+    background-color: var(--2ndHead);
     color: var(--fontWhite)
 }
 
@@ -1176,7 +1176,7 @@ position: relative;
 }
 
 .lastDealHoverIconItem:hover{
-    background-color: var(--red);
+    background-color: var(--2ndHead);
     color: var(--fontWhite);
 }
 
@@ -1216,4 +1216,8 @@ position: relative;
     font-size: 14px;
 }
 /* CoundownTimer End */
+
+
+
+
 
