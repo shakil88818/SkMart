@@ -13,10 +13,12 @@ import Discount from '../components/Home/Discount/Discount.jsx'
 import OurLatestNews from '../components/Home/OurLatestNews/OurLatestNews.jsx'
 import BestSellerProduct from '../components/Home/BestSellerProduct/BestSellerProduct.jsx'
 import FeaturedProduct from '../components/Home/FeaturedProduct/FeaturedProduct.jsx'
+import HomeBox from '../components/Home/HomeBox/HomeBox.jsx'
 
 const Home = () => {
   return (
     <>
+      <HomeBox />
       <HomeUp />
       <NewSeason />
       <BestSellerProduct />

@@ -28,6 +28,8 @@
     --5thHead: #04637A ;
     --deepwhite: rgb(255, 255, 255);
     --gray0: #BDC3C7;
+    --purple: #A603AE;
+    --2Bottom: #ABE4FF;
 }
 body{
     font-family: 'Jost', sans-serif;
@@ -474,6 +476,80 @@ h1,h2,h3,h4,h5,h6,div,p,img,input,a,button,section,main,article{
             /* fifthHomeMenu start */
         /* FifthTopNav End */
 /* header part End */
+
+
+
+
+
+/* HomeBox Start */
+.hBContainer{
+    padding-top: 1.4rem;
+}
+
+.hBContainer ul{
+    margin: 0;
+    padding: 0;
+}
+.hBItemContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hBSideBar{
+    border-right: 1px solid var(--2Bottom);
+    padding-right: 1.419rem;
+}
+
+.hBContainer ul li a{
+    padding: 0.3rem 0rem;
+}
+
+.hBBottomBar{
+    border-bottom: 1px solid var(--2Bottom);
+    margin: 3rem 0;
+}
+
+
+.hBItemContainer p{
+    font-size: 0.6rem;
+}
+
+.hBItemText{
+    color: var(--fontWhite);
+    padding: 0.1rem 0.6rem;
+    border-radius: 10px;
+}
+.hBtextBg1{
+    background-color: var(--5thHead);
+}
+.hBtextBg2{
+    background-color: var(--yellow);
+}
+.hBtextBg3{
+    background-color: var(--red);
+}
+
+.hBRightContainer{
+    padding: 2.23rem 0rem 0rem 1.333rem;
+}
+
+.hBBottomBar2{
+    border-bottom: 1px solid var(--2Bottom);
+}
+.carousel-caption{
+    color: var(--fontblack);
+}
+.carousel-caption h2{
+    font-size: 3rem;
+    font-weight: 400;
+}
+/* HomeBox Start */
+
+
+
+
+
 
 
 
