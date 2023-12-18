@@ -3,6 +3,7 @@ import {Row, Col} from 'react-bootstrap'
 
 
 import { FaAngleDown } from "react-icons/fa6";
+import { Link, NavLink } from 'react-router-dom';
 
 
 
@@ -21,18 +22,36 @@ const FifthTopNav = () => {
 
               <Col lg={9} md={9} sm={12} className='contentCenter'>
                   <div className="fifthRightContent ">
-                      <ul>
+                      <div className='wrapper'>
+                        <ul className='navMenu'>
 
 
-                        <li><a href="#" >Home <span><FaAngleDown className='fifthRightIcon' /></span></a></li>
+                          <NavLink>
+                            <Link to="/" className='fifthRightContentItem'>Home <span><FaAngleDown className='fifthRightIcon' /></span></Link>
+                            {/* <ul className='drop-menu'>
+                              <li><a href="#">New Seasion</a></li>
+                              <li><a href="#">Best Seller Products</a></li>
+                              <li><a href="#">Deal Of the Week</a></li>
+                              <li><a href="#">Featured Products</a></li>
+                              <li><a href="#">Best Catagories</a></li>
+                              <li><a href="#">Buyers Review</a></li>
+                              <li><a href="#">Last Deal</a></li>
+                              <li><a href="#">Latest News</a></li>
+                            </ul> */}
+                          </NavLink>
 
-                        <li><a href="#" >Shop <FaAngleDown className='fifthRightIcon'/></a></li>
-                        <li><a href="#" >Men</a></li>
-                        <li><a href="#" >Women</a></li>
-                        <li><a href="#" >Blog</a></li>
-                        <li><a href="#" >Contact Us</a></li>
-                        <li><a href="#" >About Us</a></li>
-                      </ul>
+
+
+
+                          <NavLink><Link to="/shop" className='fifthRightContentItem'>Shop <FaAngleDown className='fifthRightIcon'/></Link></NavLink>
+                          <NavLink><Link to="/men" className='fifthRightContentItem'>Men</Link></NavLink>
+                          <NavLink><Link to="/women" className='fifthRightContentItem'>Women</Link></NavLink>
+                          <NavLink><Link to="blog" className='fifthRightContentItem'>Blog</Link></NavLink>
+                          <NavLink><Link to="contact" className='fifthRightContentItem'>Contact Us</Link></NavLink>
+                          <NavLink><Link to="/about" className='fifthRightContentItem'>About Us</Link></NavLink>
+                        </ul>
+                      </div>
+
                   </div>
               </Col >
 

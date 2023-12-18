@@ -5,7 +5,7 @@ import { Col, Row } from 'react-bootstrap'
 const LastFooter = () => {
   return (
     <>
-      <footer className="footerPadding">
+      <footer className="footerPadding lastFooterBg">
         <div className="container-xxl">
             <Row className='footerBottomBorder'>
                 <Col lg = {4} md = {12} sm = {12}>

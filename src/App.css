@@ -202,7 +202,7 @@ h1,h2,h3,h4,h5,h6,div,p,img,input,a,button,section,main,article{
 
 .thirdBgHead{
     background-color: var(--1stHead);
-    color:var(--gray0);
+    color:var(--gray0);x
 }
 
 .thirdNavContainer{
@@ -443,7 +443,7 @@ h1,h2,h3,h4,h5,h6,div,p,img,input,a,button,section,main,article{
     gap: 30px;
 }
 
-.fifthRightContent ul li a{
+.fifthRightContentItem{
     color: var(--gray0);
     margin: 0 1.2rem;
     font-size: 1.2rem;
@@ -457,24 +457,11 @@ h1,h2,h3,h4,h5,h6,div,p,img,input,a,button,section,main,article{
 
 
 /* fifthHomeDropdown start */
-.homeDropdownContainer ul{
-    background-color: var(--5thHead);
-    width: 16rem;
-    height: 17.77rem;
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-}
-
-.homeDropdownContainer ul div li a{
-    padding: 0.2245rem 0rem;
-    font-size: 1.1rem;
-}
 
 
-            /* fifthHomeMenu start */
-        /* FifthTopNav End */
+
+/* fifthHomeDropdown End */
+/* FifthTopNav End */
 /* header part End */
 
 
@@ -560,7 +547,7 @@ h1,h2,h3,h4,h5,h6,div,p,img,input,a,button,section,main,article{
 
             /* First Footer Part start */
 .footerBg{
-    background-color: var(--bgBlack);
+    background-color: var(--1stHead);
 }
 .footerPadding{
     padding-top: 60px;
@@ -617,7 +604,10 @@ h1,h2,h3,h4,h5,h6,div,p,img,input,a,button,section,main,article{
 
 /* Last Footer Part start */
 
-
+.lastFooterBg{
+    background-color: var(--2ndHead);
+    color: var(--gray0);
+}
 .lastFooterDesc{
     
     font-size: 0.9rem;
@@ -640,7 +630,7 @@ h1,h2,h3,h4,h5,h6,div,p,img,input,a,button,section,main,article{
 }
 
 .footerBottomBorder{
-    border-bottom: 1px solid var(--gray);
+    border-bottom: 1px solid var(--gray0);
     padding-bottom: 30px;
 }
 
