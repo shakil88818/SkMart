@@ -10,7 +10,7 @@ import Letest_news3 from '../../../../src/assets/Image/latest_news4.jpg'
 const OurLatestNews = () => {
   return (
     <>
-        <div className='sectionGap_top'>
+        <div className='sectionGap_top mb-5'>
             <div className="container-xxl">
 
                 <h2 className='topHeadingSection'>Our Latest News</h2>

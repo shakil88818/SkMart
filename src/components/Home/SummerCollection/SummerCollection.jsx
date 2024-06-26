@@ -9,9 +9,9 @@ const SummerCollection = () => {
   return (
     <>
       <div className='sectionGap_top'>
-        <div className="container-xxl summerCollection">
+        <div className="container-xxl summerCollection ">
             <Row>
-                <Col lg={6} md={6} sm={12}>
+                <Col lg={6} md={6} sm={12} className='ps-0'>
                     <Image src={summer_collection2} className='sumColImg' />
                 </Col>
 

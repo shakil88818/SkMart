@@ -8,7 +8,7 @@ import GooglePlay from '../../assets/Image/google-play.png'
 const FirstFooter = () => {
   return (
     <>
-      <footer className="footerBg sectionGap_top">
+      <footer className="footerBg">
         <div className="container-xxl footerPadding">
           <Row>
             <Col lg = {6} md = {12} sm = {12}>

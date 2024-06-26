@@ -14,10 +14,12 @@ import OurLatestNews from '../components/Home/OurLatestNews/OurLatestNews.jsx'
 import BestSellerProduct from '../components/Home/BestSellerProduct/BestSellerProduct.jsx'
 import FeaturedProduct from '../components/Home/FeaturedProduct/FeaturedProduct.jsx'
 import HomeBox from '../components/Home/HomeBox/HomeBox.jsx'
+import Meta from '../components/Meta.jsx'
 
 const Home = () => {
   return (
     <>
+    <Meta title="Home || SKMART" />
       <HomeBox />
       <HomeUp />
       <NewSeason />

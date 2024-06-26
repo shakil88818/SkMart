@@ -1,10 +1,13 @@
+import Meta from "../components/Meta"
+import Shop from "../components/shop/Shop"
 
 
 const ShopPage = () => {
   return (
-    <div>
-      Shop page
-    </div>
+    <>
+    <Meta title="Shop || SKMART" />
+      <Shop/>
+    </>
   )
 }
 

@@ -30,6 +30,7 @@
     --gray0: #BDC3C7;
     --purple: #A603AE;
     --2Bottom: #ABE4FF;
+    --color-1c1c1b: #1c1c1b; 
 }
 body{
     font-family: 'Jost', sans-serif;
@@ -202,13 +203,13 @@ h1,h2,h3,h4,h5,h6,div,p,img,input,a,button,section,main,article{
 
 .thirdBgHead{
     background-color: var(--1stHead);
-    color:var(--gray0);x
+    color:var(--gray0);
 }
 
 .thirdNavContainer{
-    display:flex;
+    display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:center;
     padding: 0.4rem 0;
 }
 
@@ -1294,7 +1295,141 @@ position: relative;
 .timerItem h6{
     font-size: 14px;
 }
+
 /* CoundownTimer End */
+
+
+
+
+
+
+/* shop page start */
+
+/* shop start */
+    .shopContainer{
+        background-color: rgb(245, 202, 202);
+    }
+
+    .filterCard{
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px 25px;
+    }
+
+    .shopTitle{
+        font-size: 16px;
+        font-weight:600;
+        line-height: 20px;
+        margin-bottom: 20px;
+        color:var(--color-1c1c1b)
+    }
+
+    .filterCard .form-check-input:focus{
+        border-color: var(--3rdHead);
+        box-shadow: none;
+        
+    }
+    .filterCard .form-check-input:checked{
+        background-color: var(--2ndHead);
+        border-color: var(--3rdHead);
+    }
+    
+    .filterCard ul,
+    .filterCard .form-check-label{
+        font-size: 13px;
+        line-height: 30px;
+        color: #777777;
+    }
+
+
+     .subTitle{
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        color:var(--color-1c1c1b)
+    }
+    .shopPriceBox{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .colors ul{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .colors li {
+        width:20px;
+        height:20px;
+        border-radius: 50%;
+        background-color: red;
+    }
+    .productTags{
+        display: flex;
+        align-items: center;
+        gap:10px;
+        flex-wrap: wrap;
+    }
+    .RendomImg{
+        width:60px;
+        height:60px
+    }
+    .rendomTitle{
+        font-size: 16px;
+        font-weight:600;
+        line-height: 20px;
+        color:var(--color-1c1c1b)
+    }
+    .rendomIcon{
+        color: var(--yellow);
+    }
+    .rendomPrice{
+        font-size: 16px;
+        font-weight: 600;
+        color:var(--color-1c1c1b)
+    }
+    .rendomImgBox{
+        display: flex;
+        margin-top: 17px;
+    }
+
+
+    .shopMenuBox{
+        display: flex;
+        gap: 10px;
+
+        align-items: center;
+    }
+    .shopMenuBox2{
+        display: flex;
+        gap: 10px;
+        justify-content: end;
+        align-items: center;
+    }
+    .shopMenuBox .form-select{
+        width: 200px;
+        border: none;
+    }
+    .shopMenuBox .form-select .c{
+        border: none;
+    }
+    .shopMenuBox .form-select:focus{
+        box-shadow: none;
+    }
+
+.shopMenuIcon{
+    display: flex;
+    gap:15px
+}
+/* shop End */
+
+
+
+
+/* shop page End */
 
 
 
